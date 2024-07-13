@@ -8,7 +8,7 @@ remote_state {
   config = {
     profile = "zeal"
     role_arn = "arn:aws:iam::42443214214255:role/terraform"
-    bucket = "antonputra-terraform-state"
+    bucket = "zeal-terraform-state"
 
     key = "${path_relative_to_include()}/terraform.tfstate"
     region         = "us-east-1"
